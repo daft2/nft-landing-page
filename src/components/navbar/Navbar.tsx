@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
           </a>
         </div>
       </div>
-      <button className="border hidden lg:block rounded-lg px-12 py-1 z-50 purple-gradient hover:bg-white hover:text-fuchsia-500">
+      <button className="border hidden lg:block rounded-lg px-12 py-1 font-exo font-bold z-50 purple-gradient hover:bg-white hover:text-fuchsia-500">
         Connect Wallet
       </button>
       <MobileMenuButton />
