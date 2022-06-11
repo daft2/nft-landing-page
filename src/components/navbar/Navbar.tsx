@@ -5,8 +5,10 @@ const Navbar: React.FC = () => {
   return (
     <div className="flex flex-row justify-between">
       <div className="flex gap-16 items-center">
-        <div className="w-5 h-5 lg:w-14 lg:h-14">
-          <img src="assets/icon/logo.svg" alt="logo icon" />
+        <div>
+          <button className="w-5 h-5 lg:w-14 lg:h-14 ease-in-hover">
+            <img src="assets/icon/logo.svg" alt="logo icon" />
+          </button>
         </div>
         <div className="hidden lg:flex gap-12 justify-evenly">
           <a href="#home" className="text-active">
@@ -23,7 +25,7 @@ const Navbar: React.FC = () => {
           </a>
         </div>
       </div>
-      <button className="border hidden lg:block rounded-lg px-12 py-1">
+      <button className="border hidden lg:block rounded-lg px-12 py-1 z-50 purple-gradient hover:bg-white hover:text-fuchsia-500">
         Connect Wallet
       </button>
       <MobileMenuButton />
