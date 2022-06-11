@@ -5,3 +5,7 @@
 .text-active {
   @apply text-fuchsia-500 underline underline-offset-4;
 }
+
+.ease-in-hover {
+  @apply hover:scale-110 ease-in duration-200;
+}
