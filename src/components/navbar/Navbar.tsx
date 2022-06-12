@@ -4,13 +4,13 @@ import MobileMenuButton from "../mobile-menu-button/MobileMenuButton";
 const Navbar = () => {
   return (
     <div className="flex flex-row justify-between">
-      <div className="flex gap-16 items-center">
+      <div className="flex gap-32 items-center">
         <div>
           <button className="w-5 h-5 lg:w-14 lg:h-14 ease-in-hover">
             <img src="assets/icon/logo.svg" alt="logo icon" />
           </button>
         </div>
-        <div className="hidden lg:flex gap-12 justify-evenly">
+        <div className="hidden lg:flex gap-16 justify-evenly">
           <a href="#home" className="text-active">
             Home
           </a>
