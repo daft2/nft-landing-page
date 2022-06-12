@@ -1,7 +1,7 @@
 import React from "react";
 import MobileMenuButton from "../mobile-menu-button/MobileMenuButton";
 
-const Navbar: React.FC = () => {
+const Navbar = () => {
   return (
     <div className="flex flex-row justify-between">
       <div className="flex gap-16 items-center">
