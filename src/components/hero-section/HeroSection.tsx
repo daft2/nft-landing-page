@@ -1,10 +1,11 @@
 import React from "react";
+import CustomButton from "../custom-button/CustomButton";
 
-const HeroSection: React.FC = () => {
+const HeroSection = () => {
   return (
-    <div className="my-40">
-      <div className="w-2/5">
-        <div className="text-center xl:text-left flex flex-col gap-12">
+    <div className="my-10 lg:my-40">
+      <div className="xl:w-2/5">
+        <div className="text-center justify-center items-center xl:text-left flex flex-col gap-12">
           <div className="text-4xl xl:text-7xl font-bold font-exo">
             Discover Rare Collections Of Art & NFT's
           </div>
@@ -12,21 +13,25 @@ const HeroSection: React.FC = () => {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
             eaque soluta, mollitia nisi{" "}
           </div>
-          <div className="flex gap-8">
-            <button className="font-exo font-bold rounded-lg px-16 py-4  bg-gradient-to-r from-fuchsia-500 via-purple-700 to-blue-800 ease-in-hover">
+          <div className="flex gap-4 lg:gap-8">
+            <CustomButton
+              className={
+                "bg-gradient-to-r from-fuchsia-500 via-purple-700 to-blue-800"
+              }
+            >
               Explore
-            </button>
-            <button className="font-exo font-bold rounded-lg px-16 py-4 outline outline-fuchsia-500 ease-in-hover">
+            </CustomButton>
+            <CustomButton className={"outline outline-fuchsia-500"}>
               Create
-            </button>
+            </CustomButton>
           </div>
         </div>
       </div>
-      <div className="hidden xl:block xl:w-1/2">
+      <div className="py-10 xl:w-1/2">
         <img
           src="assets/image/mainImg.png"
           alt="main"
-          className="absolute top-0 right-0"
+          className="absolute object-cover left-0 xl:top-0 xl:right-0"
         />
       </div>
     </div>
