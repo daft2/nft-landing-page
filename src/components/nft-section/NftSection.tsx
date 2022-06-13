@@ -1,5 +1,4 @@
 import React from "react";
-import { PLACEHOLDER_LIST } from "../../constants";
 import CustomButton from "../custom-button/CustomButton";
 import ListTextItem from "../list-text-item/ListTextItem";
 
@@ -30,7 +29,7 @@ const NftSection = ({
           </h1>
         </div>
         <ListTextItem data={data} />
-        <div className="block lg:hidden">
+        <div className="flex items-center justify-center lg:hidden">
           <img src={nftImage} alt="main" />
         </div>
         <div className="my-8">
