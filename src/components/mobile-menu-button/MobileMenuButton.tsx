@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-const MobileMenuButton = () => {
-  const [isHidden, setIsHidden] = useState(true);
+const MobileMenuButton: React.FC = () => {
+  const [isHidden, setIsHidden] = useState<boolean>(true);
 
   const onClick = () => {
     setIsHidden(!isHidden);

@@ -1,7 +1,7 @@
 import React from "react";
 import CustomButton from "../custom-button/CustomButton";
 
-const HeroSection = () => {
+const HeroSection: React.FC = () => {
   return (
     <div className="my-10 lg:mt-40 lg:mb-96">
       <div className="xl:w-2/5">
