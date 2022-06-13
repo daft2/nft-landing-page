@@ -27,12 +27,8 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="w-screen -mx-12 my-10 xl:w-1/2">
-        <img
-          src="assets/image/mainImg.png"
-          alt="main"
-          className="overflow-hidden xl:absolute xl:top-0 xl:right-0"
-        />
+      <div className="flex items-center justify-center -mx-12 my-10 xl:w-1/2 overflow-hidden xl:absolute xl:top-0 xl:right-0">
+        <img src="assets/image/mainImg.png" alt="main" className="w-screen" />
       </div>
     </div>
   );
