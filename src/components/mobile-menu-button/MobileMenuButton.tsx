@@ -28,7 +28,9 @@ const MobileMenuButton = () => {
         <a href="#roadmap" className="hover:text-fuchsia-500">
           Roadmap
         </a>
-        <button className="border rounded-lg py-2">Connect Wallet</button>
+        <button className="border rounded-lg py-2 hover:bg-white hover:text-fuchsia-500">
+          Connect Wallet
+        </button>
       </div>
     </div>
   );
