@@ -9,7 +9,7 @@ const RoadmapItem = ({
 }) => {
   return (
     <div
-      className={`bg-violet-800 bg-opacity-25 backdrop-filter backdrop-blur-lg rounded-xl h-fit mx-8 ${className}`}
+      className={`bg-violet-800 mt-4 px-4 w-full mx-auto bg-opacity-25 backdrop-filter backdrop-blur-lg rounded-xl h-fit lg:mx-8 ${className}`}
     >
       {children}
     </div>
