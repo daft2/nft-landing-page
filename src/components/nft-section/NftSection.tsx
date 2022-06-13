@@ -15,8 +15,8 @@ const NftSection = ({
 }) => {
   return (
     <div
-      className={`flex lg:mb-40 flex-col lg:flex-row ${
-        reverse && "lg:flex-row-reverse"
+      className={`flex lg:my-32 flex-col ${
+        reverse ? "lg:flex-row-reverse" : "lg:flex-row"
       } gap-44`}
     >
       <div className="hidden lg:block">
@@ -32,7 +32,7 @@ const NftSection = ({
         <div className="flex items-center justify-center lg:hidden">
           <img src={nftImage} alt="main" />
         </div>
-        <div className="my-8">
+        <div className="my-8 self-center lg:self-start">
           <CustomButton
             className={
               "bg-gradient-to-r from-fuchsia-500 via-purple-700 to-blue-800"
