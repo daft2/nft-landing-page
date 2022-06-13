@@ -8,7 +8,7 @@ const HighlightSection: React.FC = () => {
   return (
     <div className="flex flex-col item-center justify-center">
       <TitleHead>Trusted by Various Artist & Popular NFT Collection</TitleHead>
-      <div className="flex flex-col lg:flex-row justify-evenly my-20">
+      <div className="flex flex-col items-center lg:items-start lg:flex-row justify-evenly my-20">
         <div>
           <img src="assets/image/nft3.png" alt="NFT Placeholder" />
         </div>

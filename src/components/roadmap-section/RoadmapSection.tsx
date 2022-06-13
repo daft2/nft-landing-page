@@ -13,20 +13,20 @@ const RoadmapSection = () => {
   return (
     <div className="flex flex-col items-center justify-center">
       <TitleHead>Roadmap</TitleHead>
-      <div className="my-20">
-        <div className="flex">
-          <RoadmapItem>
+      <div className="my-4 xl:my-20 flex-col xl:flex-row">
+        <div className="flex flex-col xl:flex-row">
+          <RoadmapItem className="xl:mt-20">
             <ListTextItem data={PLACEHOLDER_ROADMAP_1} />
           </RoadmapItem>
-          <RoadmapItem className="mt-20">
+          <RoadmapItem className="xl:mt-20">
             <ListTextItem data={PLACEHOLDER_ROADMAP_2} />
           </RoadmapItem>
         </div>
-        <div className="flex">
+        <div className="flex flex-col xl:flex-row">
           <RoadmapItem>
             <ListTextItem data={PLACEHOLDER_ROADMAP_3} />
           </RoadmapItem>
-          <RoadmapItem className="mt-20">
+          <RoadmapItem className="xl:mt-20">
             <ListTextItem data={PLACEHOLDER_ROADMAP_4} />
           </RoadmapItem>
         </div>
