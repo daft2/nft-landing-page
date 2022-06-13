@@ -27,11 +27,11 @@ const HeroSection: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center -mx-32 my-10 xl:-mx-0 xl:my-0 xl:w-1/2 overflow-hidden xl:absolute xl:top-0 xl:right-0">
+      <div className="flex items-center justify-center -mx-12 my-10 xl:-mx-0 xl:my-0 xl:w-1/2 overflow-x-hidden xl:absolute xl:top-0 xl:right-0">
         <img
           src="assets/image/mainImg.png"
           alt="main"
-          className="w-screen xl:w-full"
+          className="w-screen overflow-x-hidden xl:w-full"
         />
       </div>
     </div>
