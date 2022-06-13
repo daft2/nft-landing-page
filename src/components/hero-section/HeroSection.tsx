@@ -13,7 +13,7 @@ const HeroSection = () => {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
             eaque soluta, mollitia nisi{" "}
           </div>
-          <div className="flex w-full gap-4 lg:gap-8">
+          <div className="flex justify-center xl:justify-start w-full gap-16 lg:gap-8">
             <CustomButton
               className={
                 "bg-gradient-to-r from-fuchsia-500 via-purple-700 to-blue-800"
@@ -27,8 +27,12 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center -mx-12 my-10 xl:w-1/2 overflow-hidden xl:absolute xl:top-0 xl:right-0">
-        <img src="assets/image/mainImg.png" alt="main" className="w-screen" />
+      <div className="flex items-center justify-center -mx-32 my-10 xl:-mx-0 xl:my-0 xl:w-1/2 overflow-hidden xl:absolute xl:top-0 xl:right-0">
+        <img
+          src="assets/image/mainImg.png"
+          alt="main"
+          className="w-screen xl:w-full"
+        />
       </div>
     </div>
   );
