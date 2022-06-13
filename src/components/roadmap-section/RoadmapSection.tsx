@@ -15,7 +15,7 @@ const RoadmapSection = () => {
       <TitleHead>Roadmap</TitleHead>
       <div className="my-4 xl:my-20 flex-col xl:flex-row">
         <div className="flex flex-col xl:flex-row">
-          <RoadmapItem className="xl:mt-20">
+          <RoadmapItem>
             <ListTextItem data={PLACEHOLDER_ROADMAP_1} />
           </RoadmapItem>
           <RoadmapItem className="xl:mt-20">
