@@ -10,6 +10,9 @@ module.exports = {
       colors: {
         theme: "#170C17",
       },
+      backgroundImage: {
+        'footer-texture': "url('./images/footerImg.png')"
+      }
     },
   },
   plugins: [],
