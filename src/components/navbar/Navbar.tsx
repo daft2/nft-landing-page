@@ -10,7 +10,7 @@ const Navbar = () => {
             <img src="assets/icon/logo.svg" alt="logo icon" />
           </button>
         </div>
-        <div className="hidden lg:flex gap-16 justify-evenly">
+        <div className="hidden lg:flex gap-12">
           <a href="#home" className="text-active">
             Home
           </a>
