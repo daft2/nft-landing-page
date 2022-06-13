@@ -1,6 +1,7 @@
 import React from "react";
 import CustomButton from "../custom-button/CustomButton";
 import ListTextItem from "../list-text-item/ListTextItem";
+import TitleHead from "../title-head/TitleHead";
 
 const NftSection = ({
   title,
@@ -24,9 +25,7 @@ const NftSection = ({
       </div>
       <div className="flex flex-col py-4">
         <div>
-          <h1 className="font-exo text-xl text-center lg:text-start lg:text-5xl font-bold leading-normal">
-            {title}
-          </h1>
+          <TitleHead>{title}</TitleHead>
         </div>
         <ListTextItem data={data} />
         <div className="flex items-center justify-center lg:hidden">

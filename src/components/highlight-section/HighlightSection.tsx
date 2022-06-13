@@ -2,13 +2,12 @@ import React from "react";
 import { PLACEHOLDER_LIST } from "../../constants";
 import CustomButton from "../custom-button/CustomButton";
 import ListTextItem from "../list-text-item/ListTextItem";
+import TitleHead from "../title-head/TitleHead";
 
 const HighlightSection: React.FC = () => {
   return (
     <div className="flex flex-col item-center justify-center">
-      <h1 className="font-exo text-xl text-center lg:text-5xl font-bold leading-normal">
-        Trusted by Various Artist & Popular NFT Collection
-      </h1>
+      <TitleHead>Trusted by Various Artist & Popular NFT Collection</TitleHead>
       <div className="flex flex-col lg:flex-row justify-evenly my-20">
         <div>
           <img src="assets/image/nft3.png" alt="NFT Placeholder" />
@@ -22,9 +21,7 @@ const HighlightSection: React.FC = () => {
       </div>
       <div className="flex flex-col items-center py-4">
         <div>
-          <h1 className="font-exo text-xl text-center lg:text-5xl font-bold leading-normal">
-            Biggest NFT Marketplace
-          </h1>
+          <TitleHead>Biggest NFT Marketplace</TitleHead>
         </div>
         <ListTextItem data={PLACEHOLDER_LIST} />
         <div className="my-8">
